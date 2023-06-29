@@ -1,10 +1,9 @@
 {
   "name": "console-2",
   "version": "1.0.0",
-  "description": "",
   "main": "guess-number.js",
   "bin": {
-    "guess-number": "./guess-number.js"
+    "guess-number": "guess-number.js"
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -14,5 +13,6 @@
   "license": "ISC",
   "dependencies": {
     "yargs": "^17.7.2"
-  }
+  },
+  "description": ""
 }
